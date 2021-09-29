@@ -1,5 +1,5 @@
 ***
-# ReactJS-NodeJS-Chat-Application
+# ReactJS NodeJS Chat Application
 
 ***
 # About
@@ -23,11 +23,9 @@ In this Projet i have used Hookes, props, socket.io
 
 >Frontend is deployed on `Netlify` <br>
 http://www.netlify.app/<br>
-<br>
 Backend is deployed on `Heroku` <br>
 www.heroku.com<br>
-<br>
-The website is live now on
+The website is live now on<br>
 http://silly-mcnulty-c109a2.netlify.app/
 
 ***
