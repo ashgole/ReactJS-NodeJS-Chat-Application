@@ -13,12 +13,10 @@ In this Projet i have used Hookes, props, socket.io
 # Deployment
 
 >Frontend is deployed on `Netlify` <br>
-http://www.netlify.app/<br>
-<br>
+http://www.netlify.app/ <br>
 Backend is deployed on `Heroku` <br>
-www.heroku.com<br>
-<br>
-The website is live now on
+www.heroku.com <br>
+The website is live now on <br>
 http://silly-mcnulty-c109a2.netlify.app/
 
 ***
