@@ -18,6 +18,7 @@ This is Simple project. in this project i used django as a backend and django te
 ![alt text](https://github.com/ashgole/Django-project-online-shopping/blob/main/screenshots/profile.PNG)
 
 ***
+# Help
 ```
 Server side
 python -m virtualenv myenv
