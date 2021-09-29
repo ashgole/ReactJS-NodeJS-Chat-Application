@@ -1,37 +1,58 @@
 ***
-# Django project - online shopping ( CRUD operations )
-
-***
 # About
-This is Simple project. in this project i used django as a backend and django templates as a frontend.
+This is chatting application
+
+client side is written in `ReactJS` and server side in `nodeJS`
+
+In this Projet i have used Hookes, props, socket.io
 
 ***
 # Tags
-
-`Django` `Templates` `CRUD Operations` `Online Shopping`
-
+`ReatJS` `NodeJS` `Socket.io` `Chat` `Applicaiton`
 ***
-# Screenshots
-![alt text](https://github.com/ashgole/Django-project-online-shopping/blob/main/django.png)
-![alt text](https://github.com/ashgole/Django-project-online-shopping/blob/main/screenshots/home.PNG)
-![alt text](https://github.com/ashgole/Django-project-online-shopping/blob/main/screenshots/cart.PNG)
-![alt text](https://github.com/ashgole/Django-project-online-shopping/blob/main/screenshots/profile.PNG)
+# Deployment
+
+>Frontend is deployed on `Netlify` <br>
+http://www.netlify.app/<br>
+<br>
+Backend is deployed on `Heroku` <br>
+www.heroku.com<br>
+<br>
+The website is live now on
+http://silly-mcnulty-c109a2.netlify.app/
 
 ***
 # Help
+
+```
+Client side
+
+npx create-react-app chatapp
+npm install --save react-router-dom socket.io-client react-scroll-to-bottom react-emoji query-string
+npm i
+npm start
+npm run build
+
+Netlify commands
+install : npm install netlify-cli -g
+netlify login
+netlify deploy
+```
+
 ```
 Server side
-python -m virtualenv myenv
-myenv\scripts\activate.bat
 
-pip install -r requirements.txt
-pip install -r requirements.txt
+npm init -y
+npm install --save cors nodemon express socket.io
+npm i
+npm start
 
-python.py manage.py makemigrations
-python.py manage.py migrate
+Heroku commands
+download exe and install : https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 
-python manage.py runserver
-http://127.0.0.1:8000/signup/
-http://127.0.0.1:8000/signin/
-http://127.0.0.1:8000/home/
+heroku login
+git init
+git add .
+git commit -m "first commit"
+git push heroku master
 ```
